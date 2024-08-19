@@ -206,10 +206,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     justify-content: center;
     background-color: #f4f4fd;
 }
-.features-item-icon {
-    width: 64;
-    height: 64;
-}
+
 .section-features {padding: 120px 0;   
 }
 .section-features-list {
@@ -270,19 +267,22 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     flex-direction: row;
     gap: 24px;
 }
+.team-social-media-item {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 40px;
+    height: 40px;
+}
 .link-social-media {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.link-social-media: :hover, .link-social-media: :focus, {background-color: #404bbf;}
+.link-social-media:hover, .link-social-media:focus {background-color: #404bbf;}
 .svg-item-icon {
-    width: 16;
-    height: 16;
     fill: #f4f4fd;
 }
 .card-content {
